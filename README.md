@@ -24,8 +24,7 @@ cask "emzero"
 
 ## Requirements
 
-- Apple Silicon (arm64). Intel Macs are not currently supported, because the
-  release pipeline only builds a `darwin-arm64` artifact.
+- Apple Silicon or Intel. Homebrew selects the matching build automatically.
 - macOS 12 (Monterey) or newer.
 
 Builds are signed with a Developer ID certificate and notarized by Apple, so
