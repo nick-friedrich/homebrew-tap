@@ -1,9 +1,9 @@
 cask "emzero" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.5.0"
-  sha256 arm:   "86fb9c001a7b81d86ffe53e2f77453898e4f6c3f4c38fde0cf3de30ff3fe69a9",
-         intel: "15c055c1bf4a24d84bd5627f8bfffe521895dbf3b2e15b562ab86dbb4d9275f6"
+  version "1.5.1"
+  sha256 arm:   "54c0c9fcea7a9de944f76298c23af11b6150b21a70ddc3acf868c5c32cdaaa74",
+         intel: "defb78d25019050644cfee82ba64985eb0c9a6b333fe8ab4c0819191d8ee36d7"
 
   url "https://github.com/nick-friedrich/emzero/releases/download/v#{version}/Emzero-darwin-#{arch}-#{version}.zip"
   name "Emzero"
